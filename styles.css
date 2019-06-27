@@ -1,0 +1,19 @@
+.book {
+  position: relative;
+  max-width: 100%;
+  width: 85%;
+  margin: 10% 7.5% 0%;
+}
+
+.book-image {
+  position: absolute;
+}
+
+.book-text {
+  position: absolute;
+  font-family: 'Arial';
+  font-size: 2em;
+  width: 50%;
+  top: 5px;
+  right: 5px;
+}
