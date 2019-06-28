@@ -1,12 +1,16 @@
+body {
+  background-image: url(images/images.jfif)
+}
+
+.book-container {
+  position: relative;
+}
+
 .book {
   max-width: 100%;
   width: 85%;
   margin: 0 auto;
   z-index: -99;
-}
-
-.book-container {
-  position: relative;
 }
 
 .book-image {
@@ -25,6 +29,7 @@
   right: 15vw;
   top: 3vw;
   width: 30%;
+  color: #070010;
 }
 
 .book-text p {
@@ -33,8 +38,18 @@
 }
 
 .buttons {
-    display: block;
-   width: 50%;
-   background-color: green;
-   border-radius: 5%;
+  display: block;
+  width: 50%;
+  background-color: #4B2D73;
+  border-radius: 7px;
+  height: 2em;
+  margin: 1% auto;
+  text-align: center;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #E7E7E8;
+  height: 3px;
 }
