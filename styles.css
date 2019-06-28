@@ -31,3 +31,10 @@
   font-family: 'Arial';
   font-size: 2.3vw;
 }
+
+.buttons {
+    display: block;
+   width: 50%;
+   background-color: green;
+   border-radius: 5%;
+}
