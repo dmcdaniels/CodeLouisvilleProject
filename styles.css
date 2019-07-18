@@ -45,12 +45,11 @@ body {
   height: 2em;
   margin: 1% auto;
   text-align: center;
-  line-height: 30px;
+  line-height: 0px;
+  padding: 1em;
 }
 
-a {
+.buttons p {
   text-decoration: none;
   color: #E7E7E8;
-  height: 3px;
 }
-
