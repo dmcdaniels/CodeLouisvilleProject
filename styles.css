@@ -39,17 +39,17 @@ body {
 
 .buttons {
   display: block;
-  width: 50%;
+  width: 80%;
   background-color: #4B2D73;
   border-radius: 7px;
-  height: 2em;
   margin: 1% auto;
   text-align: center;
-  line-height: 0px;
   padding: 1em;
 }
 
 .buttons p {
   text-decoration: none;
   color: #E7E7E8;
+  font-size: 2vw;
+  overflow-wrap: break-word;
 }
