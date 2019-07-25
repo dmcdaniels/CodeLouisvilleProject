@@ -92,6 +92,7 @@ function change2() {
     
         } else if (image_tracker =='7') {
                 image.src = "images/Bathtime.jpg";
+                image_tracker ='8';
 
             var text = document.getElementById('WordTest1');
                 text.innerHTML = "Bear has had his bath and finished getting ready for bed. Now it is time to get tucked in and read a book.";
@@ -147,6 +148,7 @@ function change3() {
     
         } else if (image_tracker =='7') {
                 image.src = "images/Lotion.jpg";
+                image_tracker ='8';
 
             var text = document.getElementById('WordTest1');
                 text.innerHTML = "Bear has lotioned and finished getting ready for bed. Now it is time to get tucked in and read a book.";
