@@ -1,12 +1,12 @@
 // Creating the image_tracker variable / if and else if statements for button1 //
 var image_tracker ='1';
 function change() {
-    var image = document.getElementById('BlackTest');
+    var image = document.getElementById('ImageChanger');
         if (image_tracker =='1')  {
             image.src = 'images/Pancakes.jpg';
             image_tracker ='4';
          
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear enjoyed his pancakes very much. He would like to play with his friend Dog today. What should they do?";
 
             var button1 = document.getElementById('button1');
@@ -22,7 +22,7 @@ function change() {
             image.src = "images/Blocks.jpg";
             image_tracker ='7';
 
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear had a fun day playing blocks with his friend Dog. It is getting late and it is time for bed. What should bear do first to get ready for bed?";
 
             var button1 = document.getElementById('button1');
@@ -38,7 +38,7 @@ function change() {
                 image.src = "images/BrushingTeeth.jpg";
                 image_tracker ='8';
 
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear has brushed his teeth and finished getting ready for bed. Now it is time to get tucked in and read a book.";
 
             var button1 = document.getElementById('button1');
@@ -57,12 +57,12 @@ function change() {
 
 // if and else if statements for button 2 //
 function change2() {
-    var image = document.getElementById('BlackTest');
+    var image = document.getElementById('ImageChanger');
         if (image_tracker =='1')  {
             image.src = 'images/Toast.jpg';
             image_tracker ='4';
          
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear enjoyed his toast very much. He would like to play with his friend Dog today. What should they do?";
 
             var button1 = document.getElementById('button1');
@@ -78,7 +78,7 @@ function change2() {
             image.src = "images/Cars.jpg";
             image_tracker ='7';
 
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear had a fun day playing cars with his friend Dog. It is getting late and it is time for bed. What should bear do first to get ready for bed?";
 
             var button1 = document.getElementById('button1');
@@ -94,7 +94,7 @@ function change2() {
                 image.src = "images/Bathtime.jpg";
                 image_tracker ='8';
 
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear has had his bath and finished getting ready for bed. Now it is time to get tucked in and read a book.";
 
             var button1 = document.getElementById('button1');
@@ -113,12 +113,12 @@ function change2() {
 
 // if and else if statements for button 3 //
 function change3() {
-    var image = document.getElementById('BlackTest');
+    var image = document.getElementById('ImageChanger');
         if (image_tracker =='1')  {
             image.src = 'images/Cereal.jpg';
             image_tracker ='4';
          
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear enjoyed his cereal very much. He would like to play with his friend Dog today. What should they do?";
 
             var button1 = document.getElementById('button1');
@@ -134,7 +134,7 @@ function change3() {
             image.src = "images/Coloring.jpg";
             image_tracker ='7';
 
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear had a fun day coloring with his friend Dog. It is getting late and it is time for bed. What should bear do first to get ready for bed?";
 
             var button1 = document.getElementById('button1');
@@ -150,7 +150,7 @@ function change3() {
                 image.src = "images/Lotion.jpg";
                 image_tracker ='8';
 
-            var text = document.getElementById('WordTest1');
+            var text = document.getElementById('WordChanger');
                 text.innerHTML = "Bear has lotioned and finished getting ready for bed. Now it is time to get tucked in and read a book.";
 
             var button1 = document.getElementById('button1');
