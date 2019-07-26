@@ -23,7 +23,7 @@ function change() {
             image_tracker ='7';
 
             var text = document.getElementById('WordChanger');
-                text.innerHTML = "Bear had a fun day playing blocks with his friend Dog. It is getting late and it is time for bed. What should bear do first to get ready for bed?";
+                text.innerHTML = "Bear had a fun day playing blocks with his friend Dog. It is getting late and it is time for bed. What should Bear do first to get ready for bed?";
 
             var button1 = document.getElementById('button1');
                 button1.innerHTML = "Bear should brush his teeth."
@@ -52,6 +52,18 @@ function change() {
 
         } else if (image_tracker =='8') {
                 image.src = "images/Bedtime.jpg";
+
+                var text = document.getElementById('WordChanger');
+                text.innerHTML = "Goodnight Bear.";
+
+            var button1 = document.getElementById('button1');
+                button1.innerHTML = "Goodnight Bear.";
+
+            var button2 = document.getElementById('button2');
+                button2.innerHTML = "Goodnight Bear.";
+    
+            var button3 = document.getElementById('button3');
+                button3.innerHTML = "Goodnight Bear.";
         }
 }
 
@@ -79,7 +91,7 @@ function change2() {
             image_tracker ='7';
 
             var text = document.getElementById('WordChanger');
-                text.innerHTML = "Bear had a fun day playing cars with his friend Dog. It is getting late and it is time for bed. What should bear do first to get ready for bed?";
+                text.innerHTML = "Bear had a fun day playing cars with his friend Dog. It is getting late and it is time for bed. What should Bear do first to get ready for bed?";
 
             var button1 = document.getElementById('button1');
                 button1.innerHTML = "Bear should brush his teeth."
@@ -108,6 +120,18 @@ function change2() {
         
         } else if (image_tracker =='8') {
             image.src = "images/Bedtime.jpg";
+
+            var text = document.getElementById('WordChanger');
+                text.innerHTML = "Goodnight Bear.";
+
+            var button1 = document.getElementById('button1');
+                button1.innerHTML = "Goodnight Bear.";
+
+            var button2 = document.getElementById('button2');
+                button2.innerHTML = "Goodnight Bear.";
+    
+            var button3 = document.getElementById('button3');
+                button3.innerHTML = "Goodnight Bear.";
     }
 }
 
@@ -135,7 +159,7 @@ function change3() {
             image_tracker ='7';
 
             var text = document.getElementById('WordChanger');
-                text.innerHTML = "Bear had a fun day coloring with his friend Dog. It is getting late and it is time for bed. What should bear do first to get ready for bed?";
+                text.innerHTML = "Bear had a fun day coloring with his friend Dog. It is getting late and it is time for bed. What should Bear do first to get ready for bed?";
 
             var button1 = document.getElementById('button1');
                 button1.innerHTML = "Bear should brush his teeth."
@@ -163,5 +187,17 @@ function change3() {
                 button3.innerHTML = "Goodnight Bear.";
         } else if (image_tracker =='8') {
             image.src = "images/Bedtime.jpg";
+
+            var text = document.getElementById('WordChanger');
+                text.innerHTML = "Goodnight Bear.";
+
+            var button1 = document.getElementById('button1');
+                button1.innerHTML = "Goodnight Bear.";
+
+            var button2 = document.getElementById('button2');
+                button2.innerHTML = "Goodnight Bear.";
+    
+            var button3 = document.getElementById('button3');
+                button3.innerHTML = "Goodnight Bear.";
     }
 }
